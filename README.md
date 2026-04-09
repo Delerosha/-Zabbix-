@@ -21,6 +21,7 @@
 <img width="1215" height="623" alt="Zabbix 2 4" src="https://github.com/user-attachments/assets/62814ba6-4136-47af-82b7-6c4a00475744" />
 
 ## Задание 2
+
 `wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb`
 `dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb`
 `sudo apt install dpkg`
