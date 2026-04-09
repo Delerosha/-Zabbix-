@@ -22,10 +22,11 @@
 
 ## Задание 2
 
-`wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb`
-`dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb`
-`sudo apt install dpkg`
-`sudo apt update`
-`sudo apt install zabbix-agent`
-`systemctl restart zabbix-agent`
-`systemctl enable zabbix-agent`
+```bash
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb
+dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb
+sudo apt install dpkg
+sudo apt update
+sudo apt install zabbix-agent
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
